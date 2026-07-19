@@ -1,0 +1,25 @@
+while True:
+  print("Select a language to see how Hello, World! will be displayed")
+
+  print("1 - python")
+  print("2 - javascript")
+  print("3 - C++")
+  print("4 - java")
+  print("5 - PHP")
+  print("6 - Exit")
+
+  choice = int(input("Choice: "))
+
+  if choice == 1:
+    print('print("Hello, World!")')
+  elif choice == 2:
+    print('console.log("Hello, World!");')
+  elif choice == 3:
+    print('std::cout << "Hello, World!";')
+  elif choice == 4:
+    print('System.out.println("Hello, World!");')
+  elif choice == 5:
+    print('<?php echo "Hello, World!"; ?>')
+  elif choice == 6:
+    print("Bye")
+    break
